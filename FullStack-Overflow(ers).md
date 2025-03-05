@@ -132,8 +132,8 @@ png, jpg или jpeg размером меньше 20 Мбайт.
     Карточка в правой части экрана с иконкой и кратким описанием пользователя
 (фамилия, имя, город и контакты) также имеет незаполненные город и контакты.
 
-![профиль сосискателя](img\profile\applicant_profile_new.png)
-![профиль работдателя](img\profile\employer_profile.png)
+![профиль сосискателя](img/profile/applicant_profile_new.png)
+![профиль работдателя](img/profile/employer_profile.png)
 
 2. При нажатии на кнопку "Редактировать" открывается форма для редактирования информации о пользователе, а именно:  
     1. Имя
@@ -144,18 +144,18 @@ png, jpg или jpeg размером меньше 20 Мбайт.
     6. Контакты
     7. Аватар
 
-![форма редактирования профиля соискателя](img\profile\applicant_edit_form.png)
-![форма редактирования профиля работодателя](img\profile\employer_profile_form.png)
+![форма редактирования профиля соискателя](img/profile/applicant_edit_form.png)
+![форма редактирования профиля работодателя](img/profile/employer_profile_form.png)
 
 3. Нажав "Отмена", форма закрывается, а при нажатии на "Сохранить", внесенные изменения сохраняются.
 
-![вносимые изменения в профиль](img\profile\applicant_profile_changes.png)
+![вносимые изменения в профиль](img/profile/applicant_profile_changes.png)
 
 >  $\text{\color{red}Баг}$  
 >  После сохранения изменений без добавления нового аватара стандартная картинка "слетает".
 >  Перезагрузка страницы возвращает стандартную картинку.
 
-![изменения сохранены](img\profile\applicant_profile_changes_accepted.png)
+![изменения сохранены](img/profile/applicant_profile_changes_accepted.png)
 
 4. Максимальная допустимая длина полей в форме:
     * для имени, фамилии и города - 50 символов
@@ -165,7 +165,7 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 >  При заполнении 500 символами полей "Образование" или "Контакты" отображается сообщение
 о непредвиденной ошибке.
 
-![image](img\profile\applicant_edit_long_error.png)       
+![image](img/profile/applicant_edit_long_error.png)       
 
 5. При введении некорректной даты, отображается сообщение, что дата некорректна.
 
@@ -173,21 +173,21 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 >  На самом деле, в этом случае возниакет сообщение, что нужно заполнить поле.
 Сохранить изменения с такой датой нельзя.
 
-![image](img\profile\applicant_edit_date_bug.png)
+![image](img/profile/applicant_edit_date_bug.png)
 
 6. При введении длинных данных (порядка 50 символов), интерфейс адаптируется под введенные данные 
 
 >  $\text{\color{red}Баг}$  
 >  В реальности, происходит переполнение контейнеров.
 
-![image](img\profile\applicant_edit_long_data_overflow.png)
+![image](img/profile/applicant_edit_long_data_overflow.png)
 
 7. Можно добавить фотографию пользователя
     * поддерживаемые форматы png, jpeg 
     * размер до 20 МБ
 
-![image](img\profile\applicant_userpic.png)
-![image](img\profile\applicant_userpic_set.png)
+![image](img/profile/applicant_userpic.png)
+![image](img/profile/applicant_userpic_set.png)
 
 >  $\text{\color{red}Баг}$  
 >  В действительности, даже png фотографию размером чуть более 6 МБ отправить не удается.
@@ -201,32 +201,32 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 
 9. При попытке отправить файл формата, отличного от png или jpg, всплывает сообщение о неверном формате.
 
-![img](img\profile\applicant_userpic_incorrect_format.png)
+![img](img/profile/applicant_userpic_incorrect_format.png)
 
 10. Ожидается, что имя, фамилия и город валидируются согласно [правилам валидации](#правила-валидации)
 
 >  $\text{\color{red}Баг}$  
 >  В действительности, имя, фамилия и город могут содержать символы `~!@#$%^&*()-_=+[]{}|\;:'",.<>?
 
-![img](img\profile\name_surname_special_symbols.png)
+![img](img/profile/name_surname_special_symbols.png)
 
 11. Возраст, согласно введённой дате рождения должен [валидироваться](#правила-валидации), на то, что пользователь старше 18 лет.
 
 >  $\text{\color{red}Баг}$  
 >  Возраст может быть менее 18 лет
 
-![img](img\profile\edit_too_young.png)
+![img](img/profile/edit_too_young.png)
 
 12. Дата рождения корректна
 
 >  $\text{\color{red}Баг}$  
 >  Дата рождения может быть в будущем
 
-![img](img\profile\birthdate_future.png)
+![img](img/profile/birthdate_future.png)
 
 13. Поля "образование" и "контакты" могут содержать любой текст
 
-![alt](img\profile\edu_contacts_any_text.png)
+![alt](img/profile/edu_contacts_any_text.png)
 
 14. После изменения данных профиля работодателя в форме, должны измениться и данные на самой странице профиля
 
@@ -238,11 +238,11 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 >  $\text{\color{red}Баг}$  
 >  Попытка добавления фотографии допустимых параматеров вызывает ошибку.
 
-![alt](img\profile\employer_update_userpic.png)
+![alt](img/profile/employer_update_userpic.png)
 
 16. Не допускается оставлять пустыми поля имени и фамилии
 
-![img](img\profile\employer_empty_name.png)
+![img](img/profile/employer_empty_name.png)
 
 ### Список резюме и вакансий в профиле
 
