@@ -799,6 +799,24 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 
 ![alt text](./img/vacancy_page/favoriting_flag.png)
 
+7. Заработная плата должна быть положительной.
+![alt text](img/vacancy_page/salary.png)
+
+8. Должно быть drop-down меню с видом работы "Постоянная", "Временная", "Разовая".
+![alt text](img/vacancy_page/vidi_rabot.png)
+
+9. Должно быть drop-down меню с видом работы "Художник", "Дизайнер", "Музыкант", "Фотограф", "Видеограф", "Артист/Актёр", "Писатель".
+![alt text](img/vacancy_page/category.png)
+
+10. Input "Описание вакансии" позволяет ввести любой текст.
+![alt text](img/vacancy_page/description.png)
+
+11. Input "Должность" позволяет ввести любой текст.
+![alt text](img/vacancy_page/position.png)
+
+12. Input "Город, где нужно будет работать" позволяет ввести любой текст.
+![alt text](img/vacancy_page/city.png)
+
 ### Страница резюме
 
 Рассматривается страница вакансии. Пример (https://uart.site/cv?id=2)
