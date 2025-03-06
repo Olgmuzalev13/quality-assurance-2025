@@ -133,37 +133,37 @@ png, jpg или jpeg размером меньше 20 Мбайт.
     * описание и достижения
     * опыт работы
 
-![img](img\cv_page\cv.png)
+![img](img/cv_page/cv.png)
 
 2. При нажатии на "Скачать PDF" происходит загрузка pdf-файла с данными резюме.
 
-![img](img\cv_page\cv_pdf.png)
+![img](img/cv_page/cv_pdf.png)
 
 3. В pdf-резюме должен отображаться аватар пользователя
 
 > ${\color{red}Баг}$  
 > Аватар в pdf-версии резюме не отображается
 
-![img](img\cv_page\cv_pdf_bug.png)
+![img](img/cv_page/cv_pdf_bug.png)
 
 4. Соискатель-создатель резюме по мимо прочего, видит:
     * кнопку "Изменить"
     * кнопку "Удалить"
     * дату и время последнего изменения
 
-![img](img\cv_page\cv_author.png)
+![img](img/cv_page/cv_author.png)
 
 5. Нажатие на кнопку "Удалить" безвозвратно удаляет резюме 
 
 6. При нажатии "Изменить" открывается форма редактирования резюме
 
-![alt](img\cv_page\cv_edit_form.png)
+![alt](img/cv_page/cv_edit_form.png)
 
 7. Работодатель на странице резюме видит:
     * кнопку "Все резюме"
     * дату и время изменения резюме
 
-![alt](img\cv_page\cv_employer.png)
+![alt](img/cv_page/cv_employer.png)
 
 8. Нажатие на кнопку "Все резюме" перенаправляет на список всех резюме соискателя.
 
@@ -172,26 +172,26 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 > ${\color{red}Баг}$  
 > Можно вставить строку спецсимволов !"#$%&'()*+,-./:;<=>?@[\]^_{|}~` и сохранть
 
-![alt](img\cv_page\cv_position.png)
-![alt](img\cv_page\cv_position_invalid.png)
+![alt](img/cv_page/cv_position.png)
+![alt](img/cv_page/cv_position_invalid.png)
 
 10. При вводе некорректного текста в поле "Должность", должно выводиться сообщение об ошибке.
 
 > ${\color{red}Баг}$  
 > Можно вставить строку спецсимволов !"#$%&'()*+,-./:;<=>?@[\]^_{|}~`Fmaj7 и нажать "Сохранить". Это действие вызовет "непредвиденную ошибку".
 
-![img](img\cv_page\cv_position_error.png)
+![img](img/cv_page/cv_position_error.png)
 
 11. Поле "должность на английском" удовлетворяет [правилам](#правила-валидации) валидации
 
-![img](img\cv_page\cv_position_english_validation.png)
-![img](img\cv_page\cv_position_english.png)
+![img](img/cv_page/cv_position_english_validation.png)
+![img](img/cv_page/cv_position_english.png)
 
 12. Поле "описание и достижения" удовлетворяет [правилам](#правила-валидации) валидации
 
-![img](img\cv_page\cv_description.png)
+![img](img/cv_page/cv_description.png)
 
 13. Поле "опыт работы" удовлетворяет [правилам](#правила-валидации) валидации
 
-![img](img\cv_page\cv_working_experience.png)
+![img](img/cv_page/cv_working_experience.png)
 
