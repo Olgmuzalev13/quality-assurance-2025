@@ -186,7 +186,7 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 
 ![image](img/profile/applicant_edit_long_data_overflow.png)
 
-7. Можно добавить аватар пользователя, соответсвующую требованиям к [валидации изображений](#равила-валидации)
+7. Можно добавить аватар пользователя, соответсвующую требованиям к [валидации изображений](#правила-валидации)
 
 ![image](img/profile/applicant_userpic.png)
 ![image](img/profile/applicant_userpic_set.png)
