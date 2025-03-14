@@ -728,60 +728,60 @@ png, jpg или jpeg размером меньше 20 Мбайт.
 
 10. Поле имени позволяет ввести слово на русском языке
 
-![img](img\profile\name_input_validation.png)
+![img](img/profile/name_input_validation.png)
 
 11. Поле имени позволяет ввести слово на английском языке
 
-![img](img\profile\name_input_english.png)
+![img](img/profile/name_input_english.png)
 
 12. Поле имени позволяет ввести составное имя
 
-![img](img\profile\name_input_complex.png)
+![img](img/profile/name_input_complex.png)
 
 14. Имя не может принимать символы, кроме латинских, кириллических и знака '-' (см. [правила валидации](#правила-валидации))
 
 > $\text{\color{red}Баг}$  
 > При вводе `~!@#$%^&*()-_=+[]{}|\;:'",.<>? ошибки валидации не возникает
 
-![i](img\profile\name_input_invalid_symbols.png)
+![i](img/profile/name_input_invalid_symbols.png)
 
 15. Поле фамилии позволяет ввести слово на русском языке
 
-![img](img\profile\surname_russian.png)
+![img](img/profile/surname_russian.png)
 
 16. Поле фамилия позволяет ввести слово на английском языке
 
-![img](img\profile\surname_english.png)
+![img](img/profile/surname_english.png)
 
 17. Поле имени позволяет ввести составное имя
 
-![img](img\profile\surname_complex.png)
+![img](img/profile/surname_complex.png)
 
 18. Фамилия не может принимать символы, кроме латинских, кириллических и знака '-' (см. [правила валидации](#правила-валидации))
 
 > $\text{\color{red}Баг}$  
 > При вводе `~!@#$%^&*()-_=+[]{}|\;:'",.<>? ошибки валидации не возникает
 
-![img](img\profile\surname_invalid.png)
+![img](img/profile/surname_invalid.png)
 
 19. Поле "Город" позволяет ввести слово на русском языке
 
-![img](img\profile\city_ru.png)
+![img](img/profile/city_ru.png)
 
 16. Поле "Город" позволяет ввести слово на английском языке
 
-![img](img\profile\city_en_sep.png)
+![img](img/profile/city_en_sep.png)
 
 17. Поле "Город" позволяет ввести название, разделенное "-".
 
-![img](img\profile\city_en_sep.png)
+![img](img/profile/city_en_sep.png)
 
 18. "Город" не может принимать символы, кроме латинских, кириллических и знака '-' (см. [правила валидации](#правила-валидации))
 
 > $\text{\color{red}Баг}$  
 > При вводе `~!@#$%^&*()-_=+[]{}|\;:'",.<>? ошибки валидации не возникает
 
-![img](img\profile\city_invalid_input.png)
+![img](img/profile/city_invalid_input.png)
 
 19. Возраст, согласно введённой дате рождения    [валидируется](#правила-валидации), на то, что пользователь старше 18 лет.
 
